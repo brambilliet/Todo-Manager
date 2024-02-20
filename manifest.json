@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Todo Manager",
+  "version": "1.1",
+  "description": "Manage your todos directly from Chrome.",
+  "permissions": ["storage"],
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

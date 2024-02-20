@@ -1,0 +1,1 @@
+// Background logic can go here, such as badge management or context menus
